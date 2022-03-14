@@ -1,0 +1,17 @@
+{
+  "name": "task-management",
+  "version": "1.0.0",
+  "description": "task manager app",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cecitorres7@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.6.2"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}
