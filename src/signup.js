@@ -26,7 +26,7 @@ function signupFormListener() {
         isAdmin: false
       });
       login(email, password);
-      location.assign("/tasks.html");
+      location.assign("tasks.html");
     } catch (error) {
       alert("Invalid email or password");
     }

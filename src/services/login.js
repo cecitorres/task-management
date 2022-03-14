@@ -19,7 +19,7 @@ function login(email, password) {
 // Logout user from LocalStorage
 function logout() {
   localStorage.removeItem("user");
-  location.assign("/index.html");
+  location.assign("index.html");
 }
 
 export {
