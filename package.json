@@ -2,7 +2,7 @@
   "name": "task-management",
   "version": "1.0.0",
   "description": "task manager app",
-  "main": "src/index.html",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
