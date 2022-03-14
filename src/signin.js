@@ -17,10 +17,10 @@ function loginFormListener() {
     try {
       const user = login(email, password);
       if (user.isAdmin) {
-        location.assign("/src/users.html");
+        location.assign("/users.html");
         return;
       }
-      location.assign("/src/tasks.html");
+      location.assign("/tasks.html");
     } catch (error) {
       alert("Invalid email or password");
     }
